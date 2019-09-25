@@ -1,0 +1,196 @@
+.App {
+text-align: center
+}
+.container {
+    background-color: lightblue;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.login {
+    background-image: linear-gradient(#c10808db, #0519859e);
+    padding: 0 20px;
+}
+
+.div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 50vh;
+}
+
+.chat {
+    HEIGHT: 100VH;
+    DISPLAY: FLEX;
+    JUSTIFY-CONTENT: SPACE-BETWEEN;
+    BACKGROUND-COLOR: LIGHTBLUE;
+}
+
+.chat-screen {
+    flex-grow: 10;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.conversation-list {
+    flex-grow: 1;
+    overflow-y: scroll;
+}
+
+.conversation {
+    justify-content: space-between;
+    display: flex;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: #505050;
+    color: white;
+    flex-direction: row;
+    align-items: start;
+    box-shadow: 1px 1px 5px black;
+    transition: 0.5s all;
+}
+
+.conversation:hover {
+    background-color: #505050bb;
+    /* font-size: 1.1em; */
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px black;
+}
+
+.header {
+    background-color: #88bbff;
+    color: #505050;
+    font-size: 1.3em;
+    font-weight: 900;
+    padding: 5px 20px;
+    flex-grow: 1;
+
+}
+
+.message-box{
+    flex-grow: 40;
+}
+
+.footer{
+    flex-grow: 1;
+    position: relative;
+    height: 30px;
+    background-color: #505050;
+}
+
+.writeMessage {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    height: 30px;
+    width: calc(100% - 55px);
+    border: none;
+    border-radius: 20px;
+    padding-left: 10px;
+ }
+
+ .footer img {
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+     right: 2px;
+     width: 30px;
+     color: white;
+ }
+
+.imgIcon {
+    position: relative;
+    top: 95px;
+    right: -7px;
+    width: 30px;
+}
+
+.input {
+    padding-left: 49px;
+    border-radius: 6px;
+    align-self: center;
+    border-radius: 17px;
+    height: 5vh;
+    width: 26vw;
+}
+
+.imgIcon1 {
+    position: relative;
+    top: 106px;
+    width: 5vw;
+}
+ button {
+    height: 5vh;
+    align-self: center;
+    width: 26vw;
+    border-radius: 17px;
+    background-color: #bf090c80;
+    position: relative;
+    top: 8px;
+ }
+
+ .InputWithIcon{
+    position: relative;
+    top: 48px;
+ }
+
+ a {
+    font-size: 11px;
+    color: lightblue;
+    position: relative;
+    left: 17px;
+    bottom: 3px;
+ }
+ .t1 {
+    font-family: sans-serif;
+    font-size: 13px;
+    font-size: 13px;
+    color: #100f11;
+    position: relative;
+    top: -2px;
+ }
+ .error {
+     color: red;
+     font-size: 10px;
+ }
+
+ .errorInput {  
+    border: 1px solid red;
+ }
+ .corectInput {
+    border: 1px solid rgb(15, 156, 10);
+ }
+ .message-box {
+    display: flex;
+    flex-direction: column;
+ }
+ .sender {
+    align-self: flex-end;
+    background-color: #505050;
+    color: #ddd;
+    padding: 2px 10px;
+    border-radius: 10px 10px 0 10px;
+    margin: 2px 5px;
+ }
+ .reciver {
+    border-radius: 10px 10px 10px 0;
+    margin: 2px 5px;
+    align-self: flex-start;
+    color: #505050;
+    background-color: #88bbff;
+    padding: 2px 10px;
+ }
+ .SignUp {
+    background-color:#2e6c80;
+    display: flex;
+    height:44vh;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+ }
